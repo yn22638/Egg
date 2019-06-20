@@ -6,6 +6,7 @@ module.exports = app => {
     const Students = app.model.define('students', {
         name: STRING,
         gender:STRING,
+        tms:STRING,
     })
 
     Students.associate = function () {
