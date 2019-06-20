@@ -1,5 +1,5 @@
 <template>
-   <form @submit="login" action="login">
+   <form @submit="login">
     账号:
     <input type="text" v-model="usename">
     <br>

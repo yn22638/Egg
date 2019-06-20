@@ -8,7 +8,7 @@ class HomeController extends Controller {
 
         let body = this.ctx.request.body;
         console.log(body)
-        let name = this.ctx.request.body.name;
+        let name = this.ctx.request.body.usename;
         console.log(name)
         let password = this.ctx.request.body.password
         // const password = md5(body.password);

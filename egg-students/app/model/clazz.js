@@ -8,7 +8,7 @@ module.exports = app => {
     })
     Clazz.associate = function () {
         app.model.Clazz.belongsTo(app.model.Teacher, {  //设置外键
-            foreignKey: 'clazz_id',
+            foreignKey: 'teacher_id',
             as: 'teacher'
         })
     }

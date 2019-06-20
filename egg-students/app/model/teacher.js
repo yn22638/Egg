@@ -12,7 +12,7 @@ module.exports = app => {
     })
     Teacher.associate = function () {
         app.model.Teacher.belongsTo(app.model.Profession, {  //设置外键
-            foreignKey: 'clazz_id',
+            foreignKey: 'profession_id',
             as: 'profession'
         })
     }
