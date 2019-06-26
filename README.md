@@ -3,6 +3,7 @@
 * Database flow chart：数据库流程图
 * Business flow chart：业务流程图
 * Design flow chart：设计流程图
+* Egg Webpack：后台项目
 ### 1.后台掌握技能
     node + egg + sequelize + mysql
 ### 2.需要掌握工具
