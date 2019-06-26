@@ -1,4 +1,8 @@
 # 学生管理系统 -Egg
+## 目录
+* Database flow chart：数据库流程图
+* Business flow chart：业务流程图
+* Design flow chart：设计流程图
 ### 1.后台掌握技能
     node + egg + sequelize + mysql
 ### 2.需要掌握工具
